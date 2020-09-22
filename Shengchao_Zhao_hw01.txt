@@ -1,0 +1,31 @@
+#1
+1) 
+the code is trying to search for rows containing "color" in the file 
+"hwl_test.txt", translating spacebar into a new line, output 8 rows in
+command window
+2)
+the "*color" should be "included" with quotes rather than a "*"
+5)	
+This
+is
+a
+very
+colorful
+painting.
+The 
+blue
+
+#2
+**5905a67
+it's said the "README.md" is modified, but I'm not sure if this is the output
+I should get, as I go directly to the "git push" command without thinking
+before using the "git status" command.
+
+#3
+identify the sequence and have a new variable storing it, called "seq"
+have a counter of G and C, naming "GC"
+have a counter of the total, naming "total"
+have a while loop that ends when encountering a spacebar or a new line
+in the while loop, every time we read a character, if it's a "G" or "C," we 
+have "GC"+=1 and "total"+=1; otherwise, we only have "total" +=1
+display the pencentage, which is "GC"/"total"
